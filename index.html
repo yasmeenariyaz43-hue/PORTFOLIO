@@ -3,65 +3,147 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Portfolio</title>
+    <meta name="description" content="Professional CV of Alex Johnson - Full-Stack Developer with expertise in modern web technologies">
+    <title>Alex Johnson - CV</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="container">
+        <header class="header">
+            <h1 class="name">yasmeena riyaz</h1>
+            <p class="title">Full-Stack Developer & UI/UX Designer</p>
+            <div class="contact-info">
+                <a href="mailto:alex.johnson@example.com" class="contact-item">yasmeen@example.com</a>
+                <span class="separator">|</span>
+                <a href="tel:+1234567890" class="contact-item">+1 (234) 567-890</a>
+                <span class="separator">|</span>
+                <a href="https://github.com/yasmeen" target="_blank" class="contact-item">github.com/yasmeenariyaz43hue</a>
+                <span class="separator">|</span>
+                <a href="https://linkedin.com/in/alexjohnson" target="_blank" class="contact-item">linkedin.com/in/yasmeena riyaz</a>
+            </div>
+        </header>
 
-    <!-- 1. Header Section -->
-    <header>
-        <div class="logo">yasmeena riyaz</div>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+        <section class="section">
+            <h2 class="section-title">Professional Summary</h2>
+            <div class="section-content">
+                <p>Passionate full-stack developer with 5+ years of experience building modern web applications. Specialized in React, Node.js, and cloud technologies. Proven track record of delivering high-quality software solutions that drive business growth and enhance user experiences. Strong advocate for clean code, best practices, and continuous learning.</p>
+            </div>
+        </section>
 
-    <!-- 2. Hero/Home Section -->
-    <section id="home" class="hero-section">
-        <h1>Hello, I'm yasmeena.</h1>
-        <p>I am a web developer focused on building responsive and user-friendly websites using HTML and CSS.</p>
-        <a href="#contact" class="contact-button">Contact Me</a>
-    </section>
+        <section class="section">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="section-content">
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <h3 class="job-title">Senior Full-Stack Developer</h3>
+                        <span class="job-duration">Jan 2022 - Present</span>
+                    </div>
+                    <p class="company">TechCorp Solutions • San Francisco, CA</p>
+                    <ul class="achievements">
+                        <li>Led development of a React-based SaaS platform serving 10,000+ active users, improving user engagement by 45%</li>
+                        <li>Architected and implemented microservices backend using Node.js and PostgreSQL, reducing API response times by 60%</li>
+                        <li>Mentored junior developers and established coding standards that improved team productivity by 30%</li>
+                        <li>Implemented CI/CD pipelines using GitHub Actions, reducing deployment time from hours to minutes</li>
+                    </ul>
+                </div>
 
-    <!-- About Section (Implied by navigation link) -->
-    <section id="about" class="standard-section">
-        <h2>About Me</h2>
-        <p>A short bio about my professional journey and interests.</p>
-    </section>
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <h3 class="job-title">Full-Stack Developer</h3>
+                        <span class="job-duration">Jun 2020 - Dec 2021</span>
+                    </div>
+                    <p class="company">Digital Innovations Inc. • Remote</p>
+                    <ul class="achievements">
+                        <li>Developed and launched 5 client-facing web applications using React, Next.js, and Express</li>
+                        <li>Integrated third-party APIs including Stripe, SendGrid, and AWS services</li>
+                        <li>Collaborated with designers to create pixel-perfect, responsive interfaces</li>
+                        <li>Optimized application performance, achieving 95+ Lighthouse scores across all projects</li>
+                    </ul>
+                </div>
 
-    <!-- 3. Skills Section -->
-    <section id="skills" class="standard-section">
-        <h2>Skills</h2>
-        <div class="skills-grid">
-            <div class="skill-item">HTML5</div>
-            <div class="skill-item">CSS3</div>
-            <div class="skill-item">Responsive Design</div>
-            <div class="skill-item">Git & GitHub</div>
-            <div class="skill-item">Problem Solving</div>
-            <div class="skill-item">Basic JavaScript</div>
-        </div>
-    </section>
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <h3 class="job-title">Junior Web Developer</h3>
+                        <span class="job-duration">Aug 2019 - May 2020</span>
+                    </div>
+                    <p class="company">StartupHub • New York, NY</p>
+                    <ul class="achievements">
+                        <li>Built responsive landing pages and marketing websites using HTML, CSS, and JavaScript</li>
+                        <li>Maintained and updated existing codebases, fixing bugs and implementing new features</li>
+                        <li>Participated in agile development processes and daily stand-ups</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
 
-    <!-- Contact Section (Implied by navigation link) -->
-    <section id="contact" class="standard-section">
-        <h2>Contact</h2>
-        <p>Get in touch via email or social media.</p>
-    </section>
+        <section class="section">
+            <h2 class="section-title">Education</h2>
+            <div class="section-content">
+                <div class="education-item">
+                    <div class="education-header">
+                        <h3 class="degree">Bachelor of Science in Computer Science</h3>
+                        <span class="education-duration">2015 - 2019</span>
+                    </div>
+                    <p class="school">University of kashmir</p>
+                    <p class="education-details">GPA: 3.8/4.0 • Dean's List • Relevant coursework: Data Structures, Web Development, Database Systems</p>
+                </div>
+            </div>
+        </section>
 
-    <!-- 4. Footer Section -->
-    <footer>
-        <p>&copy; 2025 yasmeen | Connect with me:</p>
-        <div class="social-links">
-            <a href="#">LinkedIn</a> |
-            <a href="#">GitHub</a> |
-            <a href="#">Twitter</a>
-        </div>
-    </footer>
+        <section class="section">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="section-content">
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">Frontend</h3>
+                        <p class="skills-list">React, Next.js, TypeScript, JavaScript (ES6+), HTML5, CSS3, Tailwind CSS, Redux, Vue.js</p>
+                    </div>
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">Backend</h3>
+                        <p class="skills-list">Node.js, Express, Python, Django, REST APIs, GraphQL, WebSockets, Microservices</p>
+                    </div>
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">Database</h3>
+                        <p class="skills-list">PostgreSQL, MongoDB, Redis, MySQL, Prisma, Drizzle ORM</p>
+                    </div>
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">Tools & DevOps</h3>
+                        <p class="skills-list">Git, Docker, AWS, Vercel, CI/CD, Jest, Playwright, Figma, Linux</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <section class="section">
+            <h2 class="section-title">Certifications</h2>
+            <div class="section-content">
+                <ul class="certifications-list">
+                    <li><strong>AWS Certified Developer - Associate</strong> • Amazon Web Services • 2023</li>
+                    <li><strong>Professional Scrum Master I (PSM I)</strong> • Scrum.org • 2022</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Projects</h2>
+            <div class="section-content">
+                <div class="project-item">
+                    <h3 class="project-title">Task Manager Pro</h3>
+                    <p class="project-description">Open-source project management tool with real-time collaboration features. Built with React, Node.js, and WebSockets. Over 1,000 GitHub stars.</p>
+                </div>
+                <div class="project-item">
+                    <h3 class="project-title">E-Commerce Platform</h3>
+                    <p class="project-description">Full-featured online store with Stripe integration, inventory management, and admin dashboard. Handles 500+ daily transactions.</p>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <p>References available upon request</p>
+        </footer>
+    </div>
 </body>
 </html>
